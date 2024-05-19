@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    text-align: center;
+    margin-top:0;
+    
+
+}
+
+
+h1 {
+    color: #333;
+}
+
+fieldset {
+    border: none;
+    margin: 20px auto; 
+
+    padding: 0;
+    max-width: 300px; 
+}
+
+legend {
+    display: block;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#hours, #minutes, #seconds, #ampm {
+    font-size: 2em;
+    color: #333;
+    display: inline-block;
+}
+
+#seconds {
+    margin-right: 0.1em;
+}
+
+#ampm {
+    font-size: 0.5em;
+    vertical-align: top;
+}
+
+fieldset a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+fieldset a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#s_minutes, #s_seconds, #s_ms {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0 5px;
+}
+
+small {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
